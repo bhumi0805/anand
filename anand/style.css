@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+
+    background-color: rgba(128, 128, 128, 0.74);
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav img {
+    height: 70px;
+}
+
+.logo {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.slider-img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.664)), url(./img/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.slider-img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.664)), url(./img/image2.png);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.slider-img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.664)), url(./img/image3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.slider-img4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.664)), url(./img/image4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.logo h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link {
+    display: flex;
+    gap: 40px;
+
+}
+
+nav span {
+    color: red;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.link a:hover {
+    color: white;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.slick-next {
+    right: 200px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+
+    display: block;
+    width: 20px;
+    height: 20px
+}
+
+.slick-next {
+    padding: 50px;
+    background-color: black;
+    margin-right: 100px;
+    font-size: 20px;
+    line-height: 1;
+    color: #d30a0a;
+}
+
+.slick-prev {
+    background-color: black;
+    position: absolute;
+    left: 100px !important;
+    z-index: 10;
+
+}
+
+marquee h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section2 {
+     padding-top: 100px;
+}
+
+.section2-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.marq {
+    width: 80%;
+    margin: 0 auto;
+    
+    padding: 10px;
+}
+
+
+.c2-content h1 {
+    font-size: 37px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.c2-content p {
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.s2-img {
+    border-radius: 90%;
+    width: 500px;
+    height: 500px;
+}
+.section3-row{
+    display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 50px;
+}
+.section3-row img{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.footer a {
+    text-decoration: none;
+    font-size: 17px;
+}
+footer{
+    background-color: rgb(128, 128, 128);
+    padding-top: 70px;
+}
+footer h1{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.social-media{
+    display: flex;
+    gap: 40px;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 100;
+    width: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: block;
+    line-height: 20px;
+    text-transform: capitalize;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
